@@ -1,0 +1,79 @@
+li{
+    list-style: none;
+    margin-right: 48px;
+}
+li a{
+    color: #8987A1;
+}
+.home{
+    font-weight: bold;
+    color: #252432;
+}
+
+.title{
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+}
+
+p{
+    font-size: 22px;
+    font-weight: ;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+.p_color{
+    color: #E95A08;
+}
+
+.bunch{
+    background-image: url(../assets/news-letter-bg.png);
+    
+}
+
+@media screen and (max-width: 576px) {
+
+    .manu{
+        display: none;
+        
+    }
+    .banner{
+        flex-direction:column-reverse;
+        padding: 28px 0 0 0;
+    }
+    .banner_info{
+        width: 100%;
+    }
+    .banner .title{
+        font-size: 24px;
+    }
+    .banner h1{
+        padding-right: 100px;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    .plants_info{
+        margin: 0 auto;
+    }
+    .plants_cart{
+        grid-template-columns: repeat(2, 1fr);
+        /* gap: 20px; */
+        width: 100%;
+    }
+    .seller{
+        display: flex;
+        flex-direction: column;
+    }
+    .seller_info h1{
+        padding-right: 0;
+    }
+    .title{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .bunch{
+        width: 100%;
+        /* padding: 110px 36px 64px 36px; */
+    }
+}
